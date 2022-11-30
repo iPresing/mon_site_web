@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html,body{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family:'Poppins', sans-serif;
+	perspective:800px;
+}
+
+body{
+	background-image: url("bg.jpg");
+}
+
+a {
+	padding: 0 5px 0 5px;
+	background-color: rgba(0, 0, 0, 0);
+
+}
+nav {
+	 transition: all 0.5s;
+	 position: relative;
+}
+
+
+nav:hover {
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	height: 30px;
+	background-color : black;
+	box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #1750c9,
+              0 0 0.8rem #1750c9,
+              0 0 2.8rem #1750c9,
+              inset 0 0 1rem #1750c9;
+	
+}
+
+
+nav .child {
+	visibility: hidden;
+	color: rgba(255, 0, 0, 0.3);
+}
+
+nav:hover .child {
+	visibility: visible;
+}
+
+aside {
+	color: white;
+    float: right;
+    text-align: center;
+    width: 20%;
+    /* border-style: double; */
+    border-radius: 9px;
+    box-sizing: border-box;
+    background-color: rgba(108,122,137,0.3);
+    margin: 10% 20% 2% 0;
+    padding: 2% 1%;
+}
+
+/*.second:not(:hover) {
+	text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    color: transparent; 
+	float: left;
+	text-align: center;
+	width: 20%;
+	max-width: 50%;
+	border-radius: 9px;
+    box-sizing: border-box;
+	margin : 10% 20% 5% 20%;
+	
+}*/
+.second {
+	transition: all 0.3s;
+    color: white; 
+	float: left;
+	text-align: center;
+	width: 20%;
+	max-width: 50%;
+	border-radius: 9px;
+    box-sizing: border-box;
+	margin : 5% 0% 5% 20%;
+	padding: 0.5% 1% 0.5% 1%;
+	
+}
+
+.third {
+	color: white;
+    text-align: center;
+    width: 25%;
+    /* border-style: double; */
+    border-radius: 9px;
+    box-sizing: border-box;
+    background-color: rgba(108,122,137,0.3);
+    margin: 5% 37.5%;
+    padding: 2% 1%;
+}
+
+img {
+	margin: 200px 350px;
+	position: absolute;
+	float: left;
+	height: 470px;
+	transform: perspective(1500px) rotateY(15deg);
+	border-radius: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  	transition: transform 1s ease 0s;
+
+}
+
+img:hover {
+	transform: perspective(3000px) rotateY(5deg);
+}
+
+
+#header {
+	text-align: center;
+	color: white;
+}
+
+.typewriter {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end);
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+section{
+	box-sizing: border-box;
+	
+}
+
+section>img{
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 5%;
+	height: 270px;
+	width: auto;
+}
+
+#relImg{
+	position: absolute;
+	top: 400px;
+
+}
+
+.alert {
+  padding: 20px;
+  background-color: #33079D; 
+  color: white;
+  margin-top: 47%;
+}
+
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+

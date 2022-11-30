@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Mon site internet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+	<nav>
+		<span class="child"> 
+		<a href="https://twitter.com/i_presing"> Mon Twitter</a>
+		<a href="https://www.instagram.com/timtre.l23/"> Mon Instagram</a>
+		</span>
+	</nav>
+	<div class="swiper">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+
+				<h1 id="header" class="typewriter">Introduction... </h1>
+		<aside>
+			Je m’appelle Timothée, j’ai 18 ans et suis actuellement étudiant en réseau télécommunication à Colmar. J'ai étudié au lycée bartholdi dans lequel j'ai approfondi mes compétences scientifiques afin de pouvoir intégrer ma formation actuelle. 
+			En plus des cours d'école purs, j'ai pratiqué dans ma jeunesse divers sports tels que la danse et le football en club, et récemment également joué au tennis au club de tennis du SRC Colmar.
+			<br><br>
+			En dehors du sport, j'ai étudié le photomontage, le montage vidéo, la création de jeux vidéo (similaire au level design) et la composition musicale par ordinateur sur Fl Studio de style électro. J'ai étudié ces domaines sans spécialisation, donc je suis à un niveau moyen. Si vous voulez écouter un de mes anciens projets, j'ai mis deux extraits musicaux dans le dossier racine.
+
+
+		</aside>
+
+			<img src="image.jpg">
+
+			<div class="alert">
+  			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  			Tous les liens sociaux se trouvent sur la barre de navigation au dessus de la page...
+			</div>
+
+		</div>
+		<div class="swiper-slide">
+
+		<h1 id="header" class="typewriter">Mon projet... </h1>
+		<aside class="second">
+			Depuis la fin du collège j'aspire à travailler dans le monde de la cybersécurité, pour se faire j'ai pratiqué à la maison via divers sites comme "tryhackme", "hack the box", ou encore cyberdefenders.
+			Excepté le domaine spécifique à la cybersécurité j'ai également simplifié ma vie de lycéen en développant des outils (généralement mathématique) pour répondre à des problèmes donnés.
+			<br><br>
+			Grâce à certains amis, j'ai pu participer à plusieurs compétitions CTF dont PicoCTF, ça a été pour moi l'occasion de voir les prémisses du travail avec des machines aux scénarios réalistiques.
+			<br><br>
+			Les raisons pour lesquelles je suis rentré dans la formation Réseau et Télécommunication de l'IUT Colmar sont multiples,
+			la première est liée à la variété des parcours dont celui qui m'intéresse la cybersécurité, la seconde raison provient de l'avis d'un proche de la famille qui m'a conseillé de prendre cet IUT plus qu'un autre pour la qualité de la formation.
+		</aside>
+
+		<section id="sl2">
+			<img src="cat.jpg">
+			<img id="relImg" src="blue.jpg">
+		</section>
+
+
+	
+		</div>
+			<div class="swiper-slide">
+
+			<h1 id="header" class="typewriter">Quick summarize... </h1>
+			<aside class="third">My name is Timothée, I am 18 years old and I am currently a student in telecommunication network in Colmar. I studied at the Lycée Bartholdi where I deepened my scientific skills in order to be able to integrate my current studies. In addition to the pure school courses, I practiced in my youth various sports such as dance and soccer in club, and recently also played tennis in the tennis club of SRC Colmar.
+			<br><br>
+			After graduating from high school, I aspired to work in cyber security. For this, I practiced at home on various sites such as "tryhackme", "hack the box" or Cyberdefenders.In addition to the specific domain of cybersecurity, I made my life as a high school student easier by developing tools (usually math) to solve a given problem.
+			<br><br>
+			There are several reasons why I enrolled in IUT Colmar's Networking and Communications Department. The first is a variety of courses, including cybersecurity, which interests me. The second reason comes from the opinion of close family members who advised me to take this IUT more than anything else because of the quality of the education.
+
+
+
+
+
+			</aside>
+				</div>
+
+		</div>
+
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	</div>
+
+
+
+
+	<script> //initialiser le slider
+  const swiper = new Swiper('.swiper', {		
+  direction: 'horizontal',
+  loop: false,
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+	</script>
+
+</body>
+</html>
